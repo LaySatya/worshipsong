@@ -1,7 +1,6 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import PDFImageViewer from './PDFImageViewer';
 
 type Song = {
   id: string;
@@ -27,11 +26,7 @@ export default function SongCard({ song, onOpen }: { song: Song; onOpen: (s: Son
     >
       {/* Image Section */}
       <div className="relative h-48 overflow-hidden">
-        {song.pdfUrl ? (
-          <div className="w-full h-full group-hover:opacity-110">
-            <PDFImageViewer pdfUrl={song.pdfUrl} title={song.title} className="shadow-none! border-0!" />
-          </div>
-        ) : !imageError && song.imageUrl ? (
+        {!imageError && song.imageUrl ? (
           <Image
             src={song.imageUrl}
             alt={`${song.title} cover`}

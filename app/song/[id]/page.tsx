@@ -2,7 +2,6 @@
 import React, { useState, useMemo, useCallback } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Image from 'next/image';
-import PDFImageViewer from '../../components/PDFImageViewer';
 import songsData from '../../../data/songs.json';
 
 type Song = {
@@ -238,11 +237,7 @@ export default function SongDetailPage() {
               </svg>
               Chords & Lyrics Sheet
             </h2>
-            {song.pdfUrl ? (
-              <div className="mb-4">
-                <PDFImageViewer pdfUrl={song.pdfUrl} title={song.title} />
-              </div>
-            ) : song.imageUrl ? (
+            {song.imageUrl ? (
               <div className="relative w-full rounded-lg overflow-hidden shadow-lg bg-gray-100 border mb-4">
                 <Image
                   src={song.imageUrl}
@@ -253,6 +248,7 @@ export default function SongDetailPage() {
                 />
               </div>
             ) : null}
+            
             {song.pdfUrl && (
               <a
                 className="inline-flex items-center gap-2 px-6 py-3 bg-purple-600 text-white rounded-lg font-medium hover:bg-purple-700 transition-all"

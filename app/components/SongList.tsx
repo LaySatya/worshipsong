@@ -55,14 +55,14 @@ export default function SongList() {
     <div className="h-full flex flex-col">
       {/* Header Section */}
       <div className="mb-8">
-        <h1 className="text-4xl font-bold mb-2 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+        <h1 className="text-4xl font-bold mb-2 bg-linear-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
           Worship Songs
         </h1>
         <p className="text-gray-500 mb-6">Discover and learn your favorite worship songs</p>
         
         {/* Modern Search Box */}
         <div className="relative group">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl blur opacity-20 group-hover:opacity-40 transition-opacity"></div>
+          <div className="absolute inset-0 bg-linear-to-r from-purple-500 to-pink-500 rounded-xl blur opacity-20 group-hover:opacity-40 transition-opacity"></div>
           <div className="relative">
             <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
               <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -164,7 +164,7 @@ export default function SongList() {
           </div>
           <p className="text-gray-500 text-lg mb-4">No songs found matching "{searchQuery}"</p>
           <button
-            className="btn btn-primary bg-gradient-to-r from-purple-500 to-pink-500 border-0 hover:opacity-90"
+            className="btn btn-primary bg-linear-to-r from-purple-500 to-pink-500 border-0 hover:opacity-90"
             onClick={() => setSearchQuery('')}
           >
             Clear Search

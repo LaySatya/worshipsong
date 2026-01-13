@@ -1,6 +1,6 @@
-[00:00:02.389] Server  LOG      ✓ Ready in 2.2s
-[00:00:04.118] Server  WARN     ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
-[00:00:04.353] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+[00:00:00.538] Server  LOG      ✓ Ready in 359ms
+[00:00:02.929] Server  WARN     ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+[00:00:03.106] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -36,8 +36,8 @@ https://react.dev/link/hydration-mismatch
                             <button className="group text..." onClick={function onClick}>
                               <div className="relative h...">
                                 <img
-+                                 alt="Rock of Ages cover"
--                                 alt="It Is Well With My Soul cover"
++                                 alt="Holy, Holy, Holy cover"
+-                                 alt="How Great Thou Art cover"
                                   fetchPriority={undefined}
                                   loading="lazy"
                                   width={300}
@@ -47,260 +47,90 @@ https://react.dev/link/hydration-mismatch
                                   className="w-full h-full object-cover group-hover:scale-110 transition-transform dur..."
                                   style={{color:"transparent"}}
                                   sizes={undefined}
-+                                 srcSet={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Frock%2F400%2F300&w=3..."}
--                                 srcSet={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Fwell%2F400%2F300&w=3..."}
-+                                 src={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Frock%2F400%2F300&w=640&..."}
--                                 src={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Fwell%2F400%2F300&w=640&..."}
++                                 srcSet={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Fholy%2F400%2F300&w=3..."}
+-                                 srcSet={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Fgreat%2F400%2F300&w=..."}
++                                 src={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Fholy%2F400%2F300&w=640&..."}
+-                                 src={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Fgreat%2F400%2F300&w=640..."}
                                   ref={function}
                                   onLoad={function onLoad}
                                   onError={function onError}
                                 >
                                 ...
                               <h3 className="font-semibold text-gray-900 line-clamp-2 text-sm">
-+                               Rock of Ages
--                               It Is Well With My Soul
++                               Holy, Holy, Holy
+-                               How Great Thou Art
                               ...
                             ...
                         ...
             ...
           ...
 
-[00:00:04.353] Browser WARN    Image with src "https://picsum.photos/seed/amazing/400/300" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:35.242] Server  LOG      ✓ Compiled in 24ms
-[00:00:54.281] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+[00:00:10.013] Server  ERROR   TimeoutError: The operation was aborted due to timeout
+[00:00:10.014] Server  ERROR   TimeoutError: The operation was aborted due to timeout
+[00:00:10.023] Server  ERROR   TimeoutError: The operation was aborted due to timeout
+[00:00:52.745] Server  ERROR    ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1507838153414-b4b713384ebd?w=800&h=1200&fit=crop" 404
+[00:01:17.746] Server  ERROR   TimeoutError: The operation was aborted due to timeout
+[00:01:17.895] Browser WARN    Image with src "https://cautious-starfish.static.domains/감사%20-지선(អរព្រះគុណ)pdf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.491] Server  ERROR    ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1507838153414-b4b713384ebd?w=800&h=1200&fit=crop" 404
+[00:06:56.798] Server  LOG      ✓ Compiled in 31ms
+[00:06:57.101] Browser ERROR   ./data/songs.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/songs.json (json)
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+Caused by:
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 9 column 5
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+Debug info:
+- An error occurred while generating the chunk item [project]/data/songs.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 9 column 5
+    at [0].?
+       5 |     "artist": "John Newton",
+       6 |     "description": "A classic hymn that reminds us of God's unconditional love and redemption.",
+       7 |    "lyrics": "Verse 1:\nអរព្រះគុណ ដែលផ្តល់ខ្យល់ដង...តីស្រឡាញ់ទ្រង់\nដែលស្រឡាញ់ដល់ខ្ញុំ"
+       8 | 
+         |     v
+       9 +     "pdfUrl": "https://www.w3.org/WAI/test-evaluate/template/pdf-sample.pdf",
+         |     ^
+      10 |     "imageUrl": "https://cautious-starfish.static.domains/감사%20-지선(អរព្រះគុណ)pdf.jpg",
+      11 |     "youtubeId": "F6uayU_aQw8"
+      12 |   },
+      13 |   {
 
-https://react.dev/link/hydration-mismatch
+Import trace:
+  Client Component SSR:
+    ./data/songs.json
+    ./app/song/[id]/page.tsx [Client Component SSR]
+    ./app/song/[id]/page.tsx [Server Component]
+[00:07:00.097] Server  LOG      ✓ Compiled in 17ms
+[00:07:00.225] Browser ERROR   ./data/songs.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/data/songs.json (json)
 
-  ...
-    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-      <RedirectBoundary>
-        <RedirectErrorBoundary router={{...}}>
-          <InnerLayoutRouter url="/song/1" tree={[...]} params={{id:"1"}} cacheNode={{lazyData:null, ...}} ...>
-            <SegmentViewNode type="page" pagePath="song/[id]/...">
-              <SegmentTrieNode>
-              <ClientPageRoot Component={function SongDetailPage} serverProvidedParams={{...}}>
-                <SongDetailPage params={Promise} searchParams={Promise}>
-                  <div className="flex min-h...">
-                    <div>
-                    <div className="w-full lg:...">
-                      <div>
-                      <main className="container ...">
-                        <div>
-                        <div>
-                        <div>
-                        <div>
-                        <div className="mb-10">
-                          <h2>
-                          <div className="grid grid-...">
-                            <button>
-                            <button className="group text..." onClick={function onClick}>
-                              <div className="relative h...">
-                                <img
-+                                 alt="Great Is Thy Faithfulness cover"
--                                 alt="What a Friend We Have in Jesus cover"
-                                  fetchPriority={undefined}
-                                  loading="lazy"
-                                  width={300}
-                                  height={200}
-                                  decoding="async"
-                                  data-nimg="1"
-                                  className="w-full h-full object-cover group-hover:scale-110 transition-transform dur..."
-                                  style={{color:"transparent"}}
-                                  sizes={undefined}
-+                                 srcSet={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Ffaithfulness%2F400%2..."}
--                                 srcSet={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Ffriend%2F400%2F300&w..."}
-+                                 src={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Ffaithfulness%2F400%2F30..."}
--                                 src={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Ffriend%2F400%2F300&w=64..."}
-                                  ref={function}
-                                  onLoad={function onLoad}
-                                  onError={function onError}
-                                >
-                                ...
-                              <h3 className="font-semibold text-gray-900 line-clamp-2 text-sm">
-+                               Great Is Thy Faithfulness
--                               What a Friend We Have in Jesus
-                              ...
-                            ...
-                        ...
-            ...
-          ...
+Caused by:
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 8 column 5
 
-[00:00:54.281] Browser WARN    Image with src "https://picsum.photos/seed/amazing/400/300" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:56.099] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+Debug info:
+- An error occurred while generating the chunk item [project]/data/songs.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 8 column 5
+    at [0].?
+       4 |     "title": "Amazing Grace",
+       5 |     "artist": "John Newton",
+       6 |     "description": "A classic hymn that reminds us of God's unconditional love and redemption.",
+       7 |    "lyrics": "Verse 1:\nអរព្រះគុណ ដែលផ្តល់ខ្យល់ដង...តីស្រឡាញ់ទ្រង់\nដែលស្រឡាញ់ដល់ខ្ញុំ"
+         |     v
+       8 +     "pdfUrl": "https://www.w3.org/WAI/test-evaluate/template/pdf-sample.pdf",
+         |     ^
+       9 |     "imageUrl": "https://cautious-starfish.static.domains/감사%20-지선(អរព្រះគុណ)pdf.jpg",
+      10 |     "youtubeId": "F6uayU_aQw8"
+      11 |   },
+      12 |   {
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-
-  ...
-    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-      <RedirectBoundary>
-        <RedirectErrorBoundary router={{...}}>
-          <InnerLayoutRouter url="/song/1" tree={[...]} params={{id:"1"}} cacheNode={{lazyData:null, ...}} ...>
-            <SegmentViewNode type="page" pagePath="song/[id]/...">
-              <SegmentTrieNode>
-              <ClientPageRoot Component={function SongDetailPage} serverProvidedParams={{...}}>
-                <SongDetailPage params={Promise} searchParams={Promise}>
-                  <div className="flex min-h...">
-                    <div>
-                    <div className="w-full lg:...">
-                      <div>
-                      <main className="container ...">
-                        <div>
-                        <div>
-                        <div>
-                        <div>
-                        <div className="mb-10">
-                          <h2>
-                          <div className="grid grid-...">
-                            <button className="group text..." onClick={function onClick}>
-                              <div className="relative h...">
-                                <img
-+                                 alt="Be Thou My Vision cover"
--                                 alt="In Christ Alone cover"
-                                  fetchPriority={undefined}
-                                  loading="lazy"
-                                  width={300}
-                                  height={200}
-                                  decoding="async"
-                                  data-nimg="1"
-                                  className="w-full h-full object-cover group-hover:scale-110 transition-transform dur..."
-                                  style={{color:"transparent"}}
-                                  sizes={undefined}
-+                                 srcSet={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Fvision%2F400%2F300&w..."}
--                                 srcSet={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Fchrist%2F400%2F300&w..."}
-+                                 src={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Fvision%2F400%2F300&w=64..."}
--                                 src={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Fchrist%2F400%2F300&w=64..."}
-                                  ref={function}
-                                  onLoad={function onLoad}
-                                  onError={function onError}
-                                >
-                                ...
-                              <h3 className="font-semibold text-gray-900 line-clamp-2 text-sm">
-+                               Be Thou My Vision
--                               In Christ Alone
-                              ...
-                            ...
-                        ...
-            ...
-          ...
-
-[00:00:56.099] Browser WARN    Image with src "https://picsum.photos/seed/amazing/400/300" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:56.901] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-
-  ...
-    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-      <RedirectBoundary>
-        <RedirectErrorBoundary router={{...}}>
-          <InnerLayoutRouter url="/song/1" tree={[...]} params={{id:"1"}} cacheNode={{lazyData:null, ...}} ...>
-            <SegmentViewNode type="page" pagePath="song/[id]/...">
-              <SegmentTrieNode>
-              <ClientPageRoot Component={function SongDetailPage} serverProvidedParams={{...}}>
-                <SongDetailPage params={Promise} searchParams={Promise}>
-                  <div className="flex min-h...">
-                    <div>
-                    <div className="w-full lg:...">
-                      <div>
-                      <main className="container ...">
-                        <div>
-                        <div>
-                        <div>
-                        <div>
-                        <div className="mb-10">
-                          <h2>
-                          <div className="grid grid-...">
-                            <button className="group text..." onClick={function onClick}>
-                              <div className="relative h...">
-                                <img
-+                                 alt="How Great Thou Art cover"
--                                 alt="It Is Well With My Soul cover"
-                                  fetchPriority={undefined}
-                                  loading="lazy"
-                                  width={300}
-                                  height={200}
-                                  decoding="async"
-                                  data-nimg="1"
-                                  className="w-full h-full object-cover group-hover:scale-110 transition-transform dur..."
-                                  style={{color:"transparent"}}
-                                  sizes={undefined}
-+                                 srcSet={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Fgreat%2F400%2F300&w=..."}
--                                 srcSet={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Fwell%2F400%2F300&w=3..."}
-+                                 src={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Fgreat%2F400%2F300&w=640..."}
--                                 src={"/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fseed%2Fwell%2F400%2F300&w=640&..."}
-                                  ref={function}
-                                  onLoad={function onLoad}
-                                  onError={function onError}
-                                >
-                                ...
-                              <h3 className="font-semibold text-gray-900 line-clamp-2 text-sm">
-+                               How Great Thou Art
--                               It Is Well With My Soul
-                              ...
-                            ...
-                        ...
-            ...
-          ...
-
-[00:00:56.901] Browser WARN    Image with src "https://picsum.photos/seed/amazing/400/300" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:04.494] Browser WARN    Image with src "https://picsum.photos/seed/rock/400/300" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:10.239] Server  LOG      ✓ Compiled in 21ms
-[00:02:29.133] Server  ERROR    ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1507838153414-b4b713384ebd?w=800&h=1200&fit=crop" 404
-[00:02:30.628] Server  ERROR    ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1507838153414-b4b713384ebd?w=800&h=1200&fit=crop" 404
-[00:02:30.768] Browser WARN    Image with src "https://images.unsplash.com/photo-1507838153414-b4b713384ebd?w=800&h=1200&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:34.253] Browser WARN    Image with src "https://picsum.photos/seed/amazing/400/300" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:35.435] Server  LOG      ✓ Compiled in 195ms
-[00:02:36.213] Browser ERROR   Error extracting PDF image: {}
-[00:02:36.213] Browser ERROR   Error extracting PDF image: {}
-[00:02:47.695] Server  ERROR    ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1507838153414-b4b713384ebd?w=800&h=1200&fit=crop" 404
-[00:02:50.782] Browser ERROR   Error extracting PDF image: {}
-[00:02:50.782] Browser ERROR   Error extracting PDF image: {}
-[00:02:51.779] Server  LOG      ✓ Compiled in 28ms
-[00:02:58.324] Server  LOG      ✓ Compiled in 19ms
-[00:03:04.010] Server  LOG      ✓ Compiled in 11ms
-[00:03:29.873] Server  LOG      ✓ Compiled in 44ms
-[00:03:40.188] Server  LOG      ✓ Compiled in 14ms
-[00:04:09.988] Browser ERROR   Error extracting PDF image: {}
-[00:04:09.988] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.041] Server  ERROR    ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1507838153414-b4b713384ebd?w=800&h=1200&fit=crop" 404
-[00:04:10.430] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.430] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.430] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.430] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.430] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.430] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.430] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.430] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.430] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.430] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.430] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.430] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.430] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.431] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.431] Browser ERROR   Error extracting PDF image: {}
-[00:04:10.431] Browser ERROR   Error extracting PDF image: {}
-[00:04:40.518] Browser ERROR   Error extracting PDF image: {}
-[00:04:40.518] Browser ERROR   Error extracting PDF image: {}
+Import trace:
+  Client Component SSR:
+    ./data/songs.json
+    ./app/song/[id]/page.tsx [Client Component SSR]
+    ./app/song/[id]/page.tsx [Server Component]
+[00:07:01.570] Server  LOG      ✓ Compiled in 13ms
+[00:08:39.676] Server  LOG      ✓ Compiled in 16ms

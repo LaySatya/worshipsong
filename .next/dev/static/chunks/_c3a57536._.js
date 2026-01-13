@@ -1,7 +1,7 @@
 (globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
 "[project]/data/songs.json (json)", ((__turbopack_context__) => {
 
-__turbopack_context__.v([{"id":"1","title":"Amazing Grace","artist":"John Newton","description":"A classic hymn that reminds us of God's unconditional love and redemption.","lyrics":"Verse 1:\nAmazing grace! How sweet the sound\nThat saved a wretch like me.\nI once was lost, but now am found;\nWas blind, but now I see.\n\nVerse 2:\n'Twas grace that taught my heart to fear,\nAnd grace my fears relieved;\nHow precious did that grace appear\nThe hour I first believed.\n\nVerse 3:\nThrough many dangers, toils and snares,\nI have already come;\n'Tis grace that brought me safe thus far,\nAnd grace will lead me home.","pdfUrl":"https://cautious-starfish.static.domains/7fe7511435ea04555618dd3011cffbb9.pdf","imageUrl":"https://picsum.photos/seed/amazing/400/300","youtubeId":"F6uayU_aQw8"},{"id":"2","title":"How Great Thou Art","artist":"Stuart K. Hine","description":"A powerful worship song celebrating God's creation and His greatness.","lyrics":"Verse 1:\nO Lord my God! When I in awesome wonder\nConsider all the worlds Thy Hands have made;\nI see the stars, I hear the rolling thunder,\nThy power throughout the universe displayed.\n\nVerse 2:\nWhen through the woods, and forest glades I wander,\nAnd hear the birds sing sweetly in the trees;\nWhen I look down, from lofty mountain grandeur\nAnd hear the brook, and feel the gentle breeze:\n\nChorus:\nThen sings my soul, my Savior God, to Thee:\nHow great Thou art! How great Thou art!\nThen sings my soul, my Savior God, to Thee:\nHow great Thou art! How great Thou art!","pdfUrl":"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf","imageUrl":"https://picsum.photos/seed/great/400/300","youtubeId":"J8wZgqT2a40"},{"id":"3","title":"Great Is Thy Faithfulness","artist":"Thomas O. Chisholm","description":"A beloved hymn about God's unwavering faithfulness through all seasons.","lyrics":"Verse 1:\nGreat is Thy faithfulness, O God my Father;\nThere is no shadow of turning with Thee;\nThou changest not, Thy compassions, they fail not;\nAs Thou hast been, Thou forever wilt be.\n\nChorus:\nGreat is Thy faithfulness!\nGreat is Thy faithfulness!\nMorning by morning new mercies I see;\nAll I have needed Thy hand hath provided;\nGreat is Thy faithfulness, Lord, unto me!","pdfUrl":"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf","imageUrl":"https://picsum.photos/seed/faithfulness/400/300","youtubeId":"S1T_NCyL0nY"},{"id":"4","title":"Holy, Holy, Holy","artist":"Reginald Heber","description":"A trinitarian hymn of adoration to the Godhead.","lyrics":"Verse 1:\nHoly, holy, holy! Lord God Almighty!\nEarly in the morning our song shall rise to Thee;\nHoly, holy, holy! Merciful and mighty,\nGod in three Persons, blessed Trinity!\n\nVerse 2:\nHoly, holy, holy! All the saints adore Thee,\nCasting down their golden crowns around the glassy sea;\nCherubim and seraphim falling down before Thee,\nWhich wert and art and evermore shalt be.","pdfUrl":"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf","imageUrl":"https://picsum.photos/seed/holy/400/300","youtubeId":"N8Xvh4Ug7mI"},{"id":"5","title":"It Is Well With My Soul","artist":"Horatio Spafford","description":"A testament of peace and trust in God's plan despite life's difficulties.","lyrics":"Verse 1:\nWhen peace, like a river, attendeth my way,\nWhen sorrows like sea billows roll;\nWhatever my lot, Thou hast taught me to say,\nIt is well, it is well with my soul.\n\nChorus:\nIt is well (it is well)\nWith my soul (with my soul)\nIt is well, it is well with my soul.","pdfUrl":"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf","imageUrl":"https://picsum.photos/seed/well/400/300","youtubeId":"E0wKfB7JqrM"},{"id":"6","title":"Be Thou My Vision","artist":"Irish Hymn","description":"A prayer for God to be our guide and vision throughout life.","lyrics":"Verse 1:\nBe Thou my Vision, O Lord of my heart;\nNaught be all else to me, save that Thou art;\nThou my best Thought, by day or by night,\nWaking or sleeping, Thy presence my light.\n\nVerse 2:\nBe Thou my Wisdom, and Thou my true Word;\nI ever with Thee and Thou with me, Lord;\nThou my great Father, I Thy true son;\nThou in me dwelling, and I with Thee one.","pdfUrl":"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf","imageUrl":"https://picsum.photos/seed/vision/400/300","youtubeId":"b5R3x7gC0tM"},{"id":"7","title":"Crown Him With Many Crowns","artist":"Matthew Bridges","description":"A triumphant hymn celebrating Christ's kingship and victory.","lyrics":"Verse 1:\nCrown Him with many crowns,\nThe Lamb upon His throne;\nHark! How the heavenly anthem drowns\nAll music but its own!\nAwake, my soul, and sing\nOf Him who died for thee,\nAnd hail Him as thy matchless King\nThrough all eternity.","pdfUrl":"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf","imageUrl":"https://picsum.photos/seed/crown/400/300","youtubeId":"n3s0_5K9qvw"},{"id":"8","title":"All Hail the Power","artist":"Edward Perronet","description":"An Easter hymn proclaiming Christ's sovereign power and authority.","lyrics":"Verse 1:\nAll hail the power of Jesus' name!\nLet angels prostrate fall;\nBring forth the royal diadem\nAnd crown Him Lord of all!\n\nVerse 2:\nYe chosen seed of Israel's race,\nYe ransomed from the fall,\nHail Him who saves you by His grace\nAnd crown Him Lord of all!","pdfUrl":"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf","imageUrl":"https://picsum.photos/seed/power/400/300","youtubeId":"XSCg-pJLoqI"},{"id":"9","title":"Rock of Ages","artist":"Augustus Toplady","description":"A classic hymn about the refuge found in Christ's sacrifice.","lyrics":"Verse 1:\nRock of Ages, cleft for me,\nLet me hide myself in Thee;\nLet the water and the blood,\nFrom Thy riven side which flowed,\nBe of sin the double cure,\nCleanse me from its guilt and power.\n\nChorus:\nNothing in my hand I bring,\nSimply to the cross I cling;\nNaked, come to Thee for dress;\nHelpless, look to Thee for grace;\nFoul, I to the fountain fly;\nWash me, Savior, or I die.","pdfUrl":"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf","imageUrl":"https://picsum.photos/seed/rock/400/300","youtubeId":"8uEaJ7BwSqY"},{"id":"10","title":"In Christ Alone","artist":"Stuart Townend","description":"A modern hymn about the person and work of Jesus Christ.","lyrics":"Verse 1:\nIn Christ alone my hope is found;\nHe is my light, my strength, my song;\nThis Cornerstone, this solid Ground,\nFirm through the fiercest drought and storm.\nWhat heights of love, what depths of peace,\nWhen fears are stilled, when strivings cease!\nMy Comforter, my All in All,\nHere in the love of Christ I stand.\n\nChorus:\nIn Christ alone, who took on flesh,\nFullness of God in helpless babe!\nThis gift of love and righteousness,\nScorned by the ones He came to save.\nTill on that cross as Jesus died,\nThe wrath of God was satisfied;\nFor every sin on Him was laid;\nHere in the death of Christ I live.","pdfUrl":"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf","imageUrl":"https://picsum.photos/seed/christ/400/300","youtubeId":"w3T_mYz6pA0"},{"id":"11","title":"The Old Rugged Cross","artist":"George Bennard","description":"A moving hymn about the sacrificial love of Christ.","lyrics":"Verse 1:\nOn a hill far away stood an old rugged cross,\nThe emblem of suffering and shame;\nAnd I love that old cross where the dearest and best\nFor a world of lost sinners was slain.\n\nChorus:\nSo I'll cherish the old rugged cross,\nTill my trophies at last I lay down;\nI will cling to the old rugged cross,\nAnd exchange it some day for a crown.","pdfUrl":"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf","imageUrl":"https://picsum.photos/seed/cross/400/300","youtubeId":"yOwa-TLfqqE"},{"id":"12","title":"What a Friend We Have in Jesus","artist":"Joseph Scriven","description":"A comforting hymn about prayer and communion with God.","lyrics":"Verse 1:\nWhat a friend we have in Jesus,\nAll our sins and griefs to bear!\nWhat a privilege to carry\nEverything to God in prayer!\nO what peace we often forfeit,\nO what needless pain we bear,\nAll because we do not carry\nEverything to God in prayer!\n\nChorus:\nHave we trials and temptations?\nIs there trouble anywhere?\nWe should never be discouraged,\nTake it to the Lord in prayer.","pdfUrl":"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf","imageUrl":"https://picsum.photos/seed/friend/400/300","youtubeId":"M2X5HcWB6wE"}]);}),
+__turbopack_context__.v([{"id":"1","title":"Amazing Grace","artist":"John Newton","description":"A classic hymn that reminds us of God's unconditional love and redemption.","lyrics":"Verse 1:\nអរព្រះគុណ ដែលផ្តល់ខ្យល់ដង្ហើមថ្ងៃនេះ\nអរព្រះគុណ ដែលបានសង្គ្រោះដល់រូបខ្ញុំ\nទោះបីមិនដូចបំណងខ្ញុំ\nតែក៏អរព្រះគុណគ្រប់ទាំងអស់\nដែលព្រះអង្គបានដឹកនាំ\n\nVerse 2:\nអរព្រះគុណ ដែលឲ្យគ្រប់ទាំងអស់ដល់ខ្ញុំ\nអរព្រះគុណ ទោះពេលខ្លះទ្រង់ដកយកវិញ\nទ្រង់ឲ្យ ដែលតែងឲ្យនៅក្នុងព្រះគុណ\nអរព្រះគុណ ដែលឲ្យក្តីសង្ឃឹមដ៏ពិត\n\nVerse 3:\nខ្ញុំឆ្លងកាត់លំបាក\nទើបធ្វើឲ្យស្គាល់ព្រះទ័យទ្រង់\nអរព្រះគុណគ្រប់ទាំងអស់\nអរព្រះគុណ\nឲ្យមនុស្សដូចខ្ញុំ\nបានក្លាយជាកូនរបស់ទ្រង់\n\nChorus:\nអរព្រះគុណ ព្រះអម្ចាស់\nអរព្រះគុណ ព្រះអម្ចាស់\nដោយព្រះគុណព្រះអង្គ\nទើបខ្ញុំបានមកដល់ទីកន្លែងនេះ\n\nEnding:\nអរព្រះគុណ ព្រះអម្ចាស់\nអរព្រះគុណចំពោះក្តីស្រឡាញ់ទ្រង់\nដែលស្រឡាញ់ដល់ខ្ញុំ","pdfUrl":"https://cautious-starfish.static.domains/7fe7511435ea04555618dd3011cffbb9.pdf","imageUrl":"https://cautious-starfish.static.domains/감사%20-지선(អរព្រះគុណ)pdf.jpg","youtubeId":"F6uayU_aQw8"},{"id":"2","title":"How Great Thou Art","artist":"Stuart K. Hine","description":"A powerful worship song celebrating God's creation and His greatness.","lyrics":"Verse 1:\nO Lord my God! When I in awesome wonder\nConsider all the worlds Thy Hands have made;\nI see the stars, I hear the rolling thunder,\nThy power throughout the universe displayed.\n\nVerse 2:\nWhen through the woods, and forest glades I wander,\nAnd hear the birds sing sweetly in the trees;\nWhen I look down, from lofty mountain grandeur\nAnd hear the brook, and feel the gentle breeze:\n\nChorus:\nThen sings my soul, my Savior God, to Thee:\nHow great Thou art! How great Thou art!\nThen sings my soul, my Savior God, to Thee:\nHow great Thou art! How great Thou art!","pdfUrl":"https://www.w3.org/WAI/test-evaluate/template/pdf-sample.pdf","imageUrl":"https://picsum.photos/seed/great/400/300","youtubeId":"J8wZgqT2a40"},{"id":"3","title":"Great Is Thy Faithfulness","artist":"Thomas O. Chisholm","description":"A beloved hymn about God's unwavering faithfulness through all seasons.","lyrics":"Verse 1:\nGreat is Thy faithfulness, O God my Father;\nThere is no shadow of turning with Thee;\nThou changest not, Thy compassions, they fail not;\nAs Thou hast been, Thou forever wilt be.\n\nChorus:\nGreat is Thy faithfulness!\nGreat is Thy faithfulness!\nMorning by morning new mercies I see;\nAll I have needed Thy hand hath provided;\nGreat is Thy faithfulness, Lord, unto me!","pdfUrl":"https://www.w3.org/WAI/test-evaluate/template/pdf-sample.pdf","imageUrl":"https://picsum.photos/seed/faithfulness/400/300","youtubeId":"S1T_NCyL0nY"},{"id":"4","title":"Holy, Holy, Holy","artist":"Reginald Heber","description":"A trinitarian hymn of adoration to the Godhead.","lyrics":"Verse 1:\nHoly, holy, holy! Lord God Almighty!\nEarly in the morning our song shall rise to Thee;\nHoly, holy, holy! Merciful and mighty,\nGod in three Persons, blessed Trinity!\n\nVerse 2:\nHoly, holy, holy! All the saints adore Thee,\nCasting down their golden crowns around the glassy sea;\nCherubim and seraphim falling down before Thee,\nWhich wert and art and evermore shalt be.","pdfUrl":"https://www.w3.org/WAI/test-evaluate/template/pdf-sample.pdf","imageUrl":"https://picsum.photos/seed/holy/400/300","youtubeId":"N8Xvh4Ug7mI"},{"id":"5","title":"It Is Well With My Soul","artist":"Horatio Spafford","description":"A testament of peace and trust in God's plan despite life's difficulties.","lyrics":"Verse 1:\nWhen peace, like a river, attendeth my way,\nWhen sorrows like sea billows roll;\nWhatever my lot, Thou hast taught me to say,\nIt is well, it is well with my soul.\n\nChorus:\nIt is well (it is well)\nWith my soul (with my soul)\nIt is well, it is well with my soul.","pdfUrl":"https://www.w3.org/WAI/test-evaluate/template/pdf-sample.pdf","imageUrl":"https://picsum.photos/seed/well/400/300","youtubeId":"E0wKfB7JqrM"},{"id":"6","title":"Be Thou My Vision","artist":"Irish Hymn","description":"A prayer for God to be our guide and vision throughout life.","lyrics":"Verse 1:\nBe Thou my Vision, O Lord of my heart;\nNaught be all else to me, save that Thou art;\nThou my best Thought, by day or by night,\nWaking or sleeping, Thy presence my light.\n\nVerse 2:\nBe Thou my Wisdom, and Thou my true Word;\nI ever with Thee and Thou with me, Lord;\nThou my great Father, I Thy true son;\nThou in me dwelling, and I with Thee one.","pdfUrl":"https://www.w3.org/WAI/test-evaluate/template/pdf-sample.pdf","imageUrl":"https://picsum.photos/seed/vision/400/300","youtubeId":"b5R3x7gC0tM"},{"id":"7","title":"Crown Him With Many Crowns","artist":"Matthew Bridges","description":"A triumphant hymn celebrating Christ's kingship and victory.","lyrics":"Verse 1:\nCrown Him with many crowns,\nThe Lamb upon His throne;\nHark! How the heavenly anthem drowns\nAll music but its own!\nAwake, my soul, and sing\nOf Him who died for thee,\nAnd hail Him as thy matchless King\nThrough all eternity.","pdfUrl":"https://www.w3.org/WAI/test-evaluate/template/pdf-sample.pdf","imageUrl":"https://picsum.photos/seed/crown/400/300","youtubeId":"n3s0_5K9qvw"},{"id":"8","title":"All Hail the Power","artist":"Edward Perronet","description":"An Easter hymn proclaiming Christ's sovereign power and authority.","lyrics":"Verse 1:\nAll hail the power of Jesus' name!\nLet angels prostrate fall;\nBring forth the royal diadem\nAnd crown Him Lord of all!\n\nVerse 2:\nYe chosen seed of Israel's race,\nYe ransomed from the fall,\nHail Him who saves you by His grace\nAnd crown Him Lord of all!","pdfUrl":"https://www.w3.org/WAI/test-evaluate/template/pdf-sample.pdf","imageUrl":"https://picsum.photos/seed/power/400/300","youtubeId":"XSCg-pJLoqI"},{"id":"9","title":"Rock of Ages","artist":"Augustus Toplady","description":"A classic hymn about the refuge found in Christ's sacrifice.","lyrics":"Verse 1:\nRock of Ages, cleft for me,\nLet me hide myself in Thee;\nLet the water and the blood,\nFrom Thy riven side which flowed,\nBe of sin the double cure,\nCleanse me from its guilt and power.\n\nChorus:\nNothing in my hand I bring,\nSimply to the cross I cling;\nNaked, come to Thee for dress;\nHelpless, look to Thee for grace;\nFoul, I to the fountain fly;\nWash me, Savior, or I die.","pdfUrl":"https://www.w3.org/WAI/test-evaluate/template/pdf-sample.pdf","imageUrl":"https://picsum.photos/seed/rock/400/300","youtubeId":"8uEaJ7BwSqY"},{"id":"10","title":"In Christ Alone","artist":"Stuart Townend","description":"A modern hymn about the person and work of Jesus Christ.","lyrics":"Verse 1:\nIn Christ alone my hope is found;\nHe is my light, my strength, my song;\nThis Cornerstone, this solid Ground,\nFirm through the fiercest drought and storm.\nWhat heights of love, what depths of peace,\nWhen fears are stilled, when strivings cease!\nMy Comforter, my All in All,\nHere in the love of Christ I stand.\n\nChorus:\nIn Christ alone, who took on flesh,\nFullness of God in helpless babe!\nThis gift of love and righteousness,\nScorned by the ones He came to save.\nTill on that cross as Jesus died,\nThe wrath of God was satisfied;\nFor every sin on Him was laid;\nHere in the death of Christ I live.","pdfUrl":"https://www.w3.org/WAI/test-evaluate/template/pdf-sample.pdf","imageUrl":"https://picsum.photos/seed/christ/400/300","youtubeId":"w3T_mYz6pA0"},{"id":"11","title":"The Old Rugged Cross","artist":"George Bennard","description":"A moving hymn about the sacrificial love of Christ.","lyrics":"Verse 1:\nOn a hill far away stood an old rugged cross,\nThe emblem of suffering and shame;\nAnd I love that old cross where the dearest and best\nFor a world of lost sinners was slain.\n\nChorus:\nSo I'll cherish the old rugged cross,\nTill my trophies at last I lay down;\nI will cling to the old rugged cross,\nAnd exchange it some day for a crown.","pdfUrl":"https://www.w3.org/WAI/test-evaluate/template/pdf-sample.pdf","imageUrl":"https://picsum.photos/seed/cross/400/300","youtubeId":"yOwa-TLfqqE"},{"id":"12","title":"What a Friend We Have in Jesus","artist":"Joseph Scriven","description":"A comforting hymn about prayer and communion with God.","lyrics":"Verse 1:\nWhat a friend we have in Jesus,\nAll our sins and griefs to bear!\nWhat a privilege to carry\nEverything to God in prayer!\nO what peace we often forfeit,\nO what needless pain we bear,\nAll because we do not carry\nEverything to God in prayer!\n\nChorus:\nHave we trials and temptations?\nIs there trouble anywhere?\nWe should never be discouraged,\nTake it to the Lord in prayer.","pdfUrl":"https://www.w3.org/WAI/test-evaluate/template/pdf-sample.pdf","imageUrl":"https://picsum.photos/seed/friend/400/300","youtubeId":"M2X5HcWB6wE"}]);}),
 "[project]/app/song/[id]/page.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -132,17 +132,17 @@ function SongDetailPage() {
                                 d: "M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                             }, void 0, false, {
                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                lineNumber: 86,
+                                lineNumber: 85,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/song/[id]/page.tsx",
-                            lineNumber: 85,
+                            lineNumber: 84,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/song/[id]/page.tsx",
-                        lineNumber: 84,
+                        lineNumber: 83,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -150,7 +150,7 @@ function SongDetailPage() {
                         children: "Song Not Found"
                     }, void 0, false, {
                         fileName: "[project]/app/song/[id]/page.tsx",
-                        lineNumber: 89,
+                        lineNumber: 88,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -158,7 +158,7 @@ function SongDetailPage() {
                         children: "The song you are looking for does not exist."
                     }, void 0, false, {
                         fileName: "[project]/app/song/[id]/page.tsx",
-                        lineNumber: 90,
+                        lineNumber: 89,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -167,18 +167,18 @@ function SongDetailPage() {
                         children: "Back to Songs"
                     }, void 0, false, {
                         fileName: "[project]/app/song/[id]/page.tsx",
-                        lineNumber: 91,
+                        lineNumber: 90,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/song/[id]/page.tsx",
-                lineNumber: 83,
+                lineNumber: 82,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/song/[id]/page.tsx",
-            lineNumber: 82,
+            lineNumber: 81,
             columnNumber: 7
         }, this);
     }
@@ -199,26 +199,26 @@ function SongDetailPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                lineNumber: 109,
+                                lineNumber: 108,
                                 columnNumber: 13
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "w-full h-full bg-linear-to-br from-purple-400 to-pink-500"
                             }, void 0, false, {
                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                lineNumber: 117,
+                                lineNumber: 116,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-slate-900/75"
                             }, void 0, false, {
                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                lineNumber: 119,
+                                lineNumber: 118,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/song/[id]/page.tsx",
-                        lineNumber: 107,
+                        lineNumber: 106,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -240,17 +240,17 @@ function SongDetailPage() {
                                         d: "M15 19l-7-7 7-7"
                                     }, void 0, false, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 130,
+                                        lineNumber: 129,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/song/[id]/page.tsx",
-                                    lineNumber: 129,
+                                    lineNumber: 128,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                lineNumber: 124,
+                                lineNumber: 123,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -268,23 +268,23 @@ function SongDetailPage() {
                                         d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                                     }, void 0, false, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 135,
+                                        lineNumber: 134,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/song/[id]/page.tsx",
-                                    lineNumber: 134,
+                                    lineNumber: 133,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                lineNumber: 133,
+                                lineNumber: 132,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/song/[id]/page.tsx",
-                        lineNumber: 123,
+                        lineNumber: 122,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -298,7 +298,7 @@ function SongDetailPage() {
                                         children: song.title
                                     }, void 0, false, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 144,
+                                        lineNumber: 143,
                                         columnNumber: 13
                                     }, this),
                                     song.artist && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -306,13 +306,13 @@ function SongDetailPage() {
                                         children: song.artist
                                     }, void 0, false, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 145,
+                                        lineNumber: 144,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                lineNumber: 143,
+                                lineNumber: 142,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -326,7 +326,7 @@ function SongDetailPage() {
                                                 children: "Artist"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                                lineNumber: 152,
+                                                lineNumber: 151,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -334,13 +334,13 @@ function SongDetailPage() {
                                                 children: song.artist
                                             }, void 0, false, {
                                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                                lineNumber: 153,
+                                                lineNumber: 152,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 151,
+                                        lineNumber: 150,
                                         columnNumber: 15
                                     }, this),
                                     song.youtubeId && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -351,7 +351,7 @@ function SongDetailPage() {
                                                 children: "Video"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                                lineNumber: 158,
+                                                lineNumber: 157,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -359,31 +359,31 @@ function SongDetailPage() {
                                                 children: "● Live"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                                lineNumber: 159,
+                                                lineNumber: 158,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 157,
+                                        lineNumber: 156,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                lineNumber: 149,
+                                lineNumber: 148,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/song/[id]/page.tsx",
-                        lineNumber: 141,
+                        lineNumber: 140,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/song/[id]/page.tsx",
-                lineNumber: 105,
+                lineNumber: 104,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -411,17 +411,17 @@ function SongDetailPage() {
                                                 d: "M15 19l-7-7 7-7"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                                lineNumber: 177,
+                                                lineNumber: 176,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/song/[id]/page.tsx",
-                                            lineNumber: 176,
+                                            lineNumber: 175,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 171,
+                                        lineNumber: 170,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -429,7 +429,7 @@ function SongDetailPage() {
                                         children: song.title
                                     }, void 0, false, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 180,
+                                        lineNumber: 179,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -447,23 +447,23 @@ function SongDetailPage() {
                                                 d: "M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                                lineNumber: 183,
+                                                lineNumber: 182,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/song/[id]/page.tsx",
-                                            lineNumber: 182,
+                                            lineNumber: 181,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 181,
+                                        lineNumber: 180,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                lineNumber: 170,
+                                lineNumber: 169,
                                 columnNumber: 11
                             }, this),
                             song.imageUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -477,26 +477,26 @@ function SongDetailPage() {
                                         priority: true
                                     }, void 0, false, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 189,
+                                        lineNumber: 188,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute inset-0 bg-linear-to-t from-black/20 to-transparent"
                                     }, void 0, false, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 196,
+                                        lineNumber: 195,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                lineNumber: 188,
+                                lineNumber: 187,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/song/[id]/page.tsx",
-                        lineNumber: 169,
+                        lineNumber: 168,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -509,12 +509,12 @@ function SongDetailPage() {
                                     children: song.description
                                 }, void 0, false, {
                                     fileName: "[project]/app/song/[id]/page.tsx",
-                                    lineNumber: 205,
+                                    lineNumber: 204,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                lineNumber: 204,
+                                lineNumber: 203,
                                 columnNumber: 13
                             }, this),
                             song.youtubeId && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -531,19 +531,19 @@ function SongDetailPage() {
                                                     d: "M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/song/[id]/page.tsx",
-                                                    lineNumber: 214,
+                                                    lineNumber: 213,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                                lineNumber: 213,
+                                                lineNumber: 212,
                                                 columnNumber: 17
                                             }, this),
                                             "Video"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 212,
+                                        lineNumber: 211,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -559,18 +559,18 @@ function SongDetailPage() {
                                             className: "w-full h-full"
                                         }, void 0, false, {
                                             fileName: "[project]/app/song/[id]/page.tsx",
-                                            lineNumber: 219,
+                                            lineNumber: 218,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 218,
+                                        lineNumber: 217,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                lineNumber: 211,
+                                lineNumber: 210,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -591,22 +591,22 @@ function SongDetailPage() {
                                                     d: "M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/song/[id]/page.tsx",
-                                                    lineNumber: 237,
+                                                    lineNumber: 236,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                                lineNumber: 236,
+                                                lineNumber: 235,
                                                 columnNumber: 15
                                             }, this),
                                             "Chords & Lyrics Sheet"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 235,
+                                        lineNumber: 234,
                                         columnNumber: 13
                                     }, this),
-                                    song.imageUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    song.imageUrl ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "relative w-full rounded-lg overflow-hidden shadow-lg bg-gray-100 border mb-4",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             src: song.imageUrl,
@@ -616,14 +616,14 @@ function SongDetailPage() {
                                             className: "w-full h-auto object-contain"
                                         }, void 0, false, {
                                             fileName: "[project]/app/song/[id]/page.tsx",
-                                            lineNumber: 243,
+                                            lineNumber: 242,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/song/[id]/page.tsx",
-                                        lineNumber: 242,
+                                        lineNumber: 241,
                                         columnNumber: 15
-                                    }, this),
+                                    }, this) : null,
                                     song.pdfUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         className: "inline-flex items-center gap-2 px-6 py-3 bg-purple-600 text-white rounded-lg font-medium hover:bg-purple-700 transition-all",
                                         href: song.pdfUrl,
@@ -661,7 +661,7 @@ function SongDetailPage() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/song/[id]/page.tsx",
-                                lineNumber: 234,
+                                lineNumber: 233,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -995,19 +995,19 @@ function SongDetailPage() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/song/[id]/page.tsx",
-                        lineNumber: 201,
+                        lineNumber: 200,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/song/[id]/page.tsx",
-                lineNumber: 167,
+                lineNumber: 166,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/song/[id]/page.tsx",
-        lineNumber: 103,
+        lineNumber: 102,
         columnNumber: 5
     }, this);
 }
