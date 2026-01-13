@@ -1,0 +1,11 @@
+[00:00:00.435] Server  LOG      ✓ Ready in 301ms
+[00:00:01.523] Server  WARN     ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+[00:00:02.278] Server  ERROR    ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1507838153414-b4b713384ebd?w=1200&h=1600&fit=crop" 404
+[00:00:07.563] Browser WARN    Image with src "https://picsum.photos/seed/amazing/400/300" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:13.541] Server  ERROR    ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1507838153414-b4b713384ebd?w=1200&h=1600&fit=crop" 404
+[00:03:40.480] Server  ERROR    ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1507838153414-b4b713384ebd?w=1200&h=1600&fit=crop" 404
+[00:05:57.244] Server  LOG      ✓ Compiled in 8ms
+[00:06:02.188] Server  LOG      ✓ Compiled in 8ms
+[00:06:08.423] Server  LOG      ✓ Compiled in 6ms
+[00:06:46.923] Browser WARN    Image with src "https://picsum.photos/seed/amazing/400/300" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:50.244] Server  ERROR    ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1507838153414-b4b713384ebd?w=1200&h=1600&fit=crop" 404
