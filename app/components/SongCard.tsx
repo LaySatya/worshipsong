@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
+import PDFImageViewer from './PDFImageViewer';
 
 type Song = {
   id: string;
@@ -26,7 +27,11 @@ export default function SongCard({ song, onOpen }: { song: Song; onOpen: (s: Son
     >
       {/* Image Section */}
       <div className="relative h-48 overflow-hidden">
-        {!imageError && song.imageUrl ? (
+        {song.pdfUrl ? (
+          <div className="w-full h-full group-hover:opacity-110">
+            <PDFImageViewer pdfUrl={song.pdfUrl} title={song.title} className="shadow-none! border-0!" />
+          </div>
+        ) : !imageError && song.imageUrl ? (
           <Image
             src={song.imageUrl}
             alt={`${song.title} cover`}
@@ -38,7 +43,7 @@ export default function SongCard({ song, onOpen }: { song: Song; onOpen: (s: Son
             onError={() => setImageError(true)}
           />
         ) : (
-          <div className="w-full h-full bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center">
+          <div className="w-full h-full bg-linear-to-br from-purple-400 to-pink-500 flex items-center justify-center">
             <svg className="w-16 h-16 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
             </svg>
@@ -46,7 +51,7 @@ export default function SongCard({ song, onOpen }: { song: Song; onOpen: (s: Son
         )}
         
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0"></div>
+        <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/0 to-black/0"></div>
         
         {/* Play Button Overlay */}
         <div
@@ -95,7 +100,7 @@ export default function SongCard({ song, onOpen }: { song: Song; onOpen: (s: Son
         {/* Action Buttons */}
         <div className="flex gap-2 mt-auto">
           <button
-            className="flex-1 btn btn-sm bg-gradient-to-r from-purple-500 to-pink-500 text-white border-0 hover:opacity-90 transition-opacity"
+            className="flex-1 btn btn-sm bg-linear-to-r from-purple-500 to-pink-500 text-white border-0 hover:opacity-90 transition-opacity"
             onClick={(e) => {
               e.stopPropagation();
               onOpen(song);
